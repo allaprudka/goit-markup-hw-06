@@ -252,7 +252,6 @@ img {
 .button-buy {
   display: inline-block;
   min-width: 200px;
-
   color: #ffffff;
   font: var(--font-botton-text);
   background-color: var(--accent-color);
@@ -525,7 +524,6 @@ img {
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eeeeee;
-
   transition: var(--transition-box-shadow-kit);
 }
 
