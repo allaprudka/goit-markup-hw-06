@@ -422,17 +422,73 @@
                         </li>
                     </ul>
                 </div>
+                <div class="form-footer">
+                    <form>
+                        <h4 class="form-title-footer">Подпишитесь на рассылку</h4>
+                        <div class="form-field-footer">
+                            <input type="email" placeholder="E-mail">
+                        </div>
+
+                        <div class="button-subscribe">
+                            <button class="button-subscribe-footer" type="submit">Подписаться<svg class="icon-subscribe" width="24px" height="24px">
+                                <use href="images/sprite.svg#icon-icon-linkedin"></use>
+                            </svg></button>
+                        </div>
+                    </form>
+                </div>
             </div>          
         </footer>
     </main>
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-
             <button class="icon-close-modal" data-modal-close>
                 <svg class="button-close-modal" width="18px" height="18px">
                     <use href="images/sprite.svg#icon-icon-close-modal"></use>
-                </svg></button>
+                </svg>
+            </button>
+            <form class="form-modal" autocomplete="off">
+                <h3 class="form-title">Оставьте свои данные, мы вам перезвоним</h3>
+
+                <div class="form-field">
+
+                    <label for="name" class="form-label">Имя</label>
+                    <span class="icon-form"></span>
+                    <input type="text" class="form-input-modal" name="name" id="name" />
+                    
+                </div>
+                
+
+                <div class="form-field">
+                    <label for="email">Почта</label>
+                    <span class="icon-form"></span>
+                    <input class="form-input-modal" type="email" name="email" id="email"/>
+                    <span class="icon-form"></span>
+                </div>
+
+                <div class="form-field">
+                    <label for="comment">Комментарий</label>
+                    <textarea name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea>
+
+                </div>
+
+                <div class="checkbox-item">
+                    <label class="check option">
+                        <input type="checkbox" class="check-input" />
+                        <span class="check-box"></span>
+                        <span class="text-agreement">Соглашаюсь с рассылкой и принимаю</span>
+                        <a href="#" class="link-agreement">Условия договора</a>
+                        
+                    </label>
+                </div>
+
+                <div class="button-submit-form">
+                    <button class="button-submit-form-modal" type="submit">Отправить</button>
+                </div>
+
+            </form>
+
+            
 
         </div>
 
