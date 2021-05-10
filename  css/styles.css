@@ -1029,7 +1029,7 @@ ul {
 .check-input:checked + .check-box {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  background-image: url(/images/icon-check.svg);
+
   background-size: contain;
   background-origin: border-box;
   border: none;
