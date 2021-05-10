@@ -970,14 +970,6 @@ ul {
   margin-left: 10px;
 }
 
-.checkbox:checked + .checkbox-icon {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  background-image: url(/images/icon-check.svg);
-  background-size: contain;
-  background-origin: border-box;
-}
-
 .link-agreement {
   display: inline-block;
   margin-left: 5px;
@@ -1037,6 +1029,8 @@ ul {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   background-image: url(/images/icon-check.svg);
+  background-size: contain;
+  background-origin: border-box;
 }
 
 .button-submit-form {
