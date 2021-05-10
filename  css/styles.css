@@ -999,6 +999,7 @@ ul {
 
 .checkbox-item {
   display: inline-block;
+  margin-top: 20px;
 }
 
 .option {
