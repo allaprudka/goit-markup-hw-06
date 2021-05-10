@@ -62,6 +62,7 @@ img {
 
 .page-header {
   border-bottom: 1px solid #ececec;
+  width: 1600px;
 }
 
 .logo-text {
@@ -287,7 +288,7 @@ img {
 .footer {
   background-color: var(--background-color-footer);
   min-height: 252px;
-  max-width: 1600px;
+  width: 1600px;
 }
 
 .address-footer {
