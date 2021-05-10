@@ -815,6 +815,8 @@ ul {
 }
 
 .form-modal {
+  width: 100%;
+  height: 100%;
   padding: 40px 39px 40px 41px;
 }
 
@@ -906,8 +908,7 @@ ul {
   margin-left: 93px;
 }
 
-.form-footer input {
-  position: absolute;
+.form-footer-input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -917,6 +918,10 @@ ul {
   padding-bottom: 15px;
   padding-left: 16px;
   background-color: var(--background-color-footer);
+}
+
+.form-footer-input:focus-within {
+  color: var(--primary-text-color-white);
 }
 
 .form-title-footer {
