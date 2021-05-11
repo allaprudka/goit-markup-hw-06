@@ -10,15 +10,6 @@
   --font-family-roboto: 'Roboto', sans-serif;
   --font-family-raleway: 'Raleway', sans-serif;
   --background-color-footer: #2f303a;
-  --transition-color-kit: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-bgc-color-kit: background-color 250ms
-      cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-box-shadow-kit: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-duration-cubic-bezier-kit: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-border-color-color-kit: border-color 250ms
-      cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   --time-animation: 250ms;
   --function-animation: cubic-bezier(0.4, 0, 0.2, 1);
@@ -91,7 +82,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-text-color-white);
 }
 
 .logo-footer {
@@ -109,7 +100,7 @@ img {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-text-color-white);
 }
 
 .block-address {
@@ -131,7 +122,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .nav-item:not(:last-child) {
@@ -193,7 +184,7 @@ img {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
   padding: 6px 22px;
   margin-right: 8px;
   border: transparent;
@@ -203,8 +194,6 @@ img {
   transition-property: background-color, color, box-shadow;
   transition-duration: var(--time-animation);
   transition-timing-function: var(--function-animation);
-
-  transition: var(--transition-bgc-color-box-shadow);
 }
 
 .button-prtfl:last-child {
@@ -220,12 +209,14 @@ img {
 }
 
 .link-header {
-  color: #212121;
+  color: var(--primary-text-color);
   font-size: 14px;
   display: block;
   position: relative;
 
-  transition: var(--transition-color-kit);
+  transition-property: color;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--function-animation);
 
   padding: 32px 0;
 }
@@ -244,7 +235,9 @@ img {
 
   border-radius: 2px;
 
-  transition: var(--transition-color-kit);
+  transition-property: color;
+  transition-duration: var(--time-animation);
+  transition-timing-function: var(--function-animation);
 }
 
 .link-header:hover,
@@ -303,7 +296,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-text-color-white);
   padding-top: 20px;
   padding-bottom: 9px;
 }
@@ -367,7 +360,7 @@ img {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .what-we-do {
@@ -481,7 +474,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: var(--primary-background-color);
   fill: currentColor;
   color: #afb1b8;
 
@@ -616,7 +609,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-text-color);
   margin-top: 20px;
   margin-bottom: 4px;
   padding-left: 24px;
@@ -670,7 +663,7 @@ img {
 
   margin-top: 0;
   margin-bottom: 30px;
-  color: #ffffff;
+  color: var(--primary-text-color-white);
   text-transform: uppercase;
 }
 
@@ -688,7 +681,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .text-paragraph {
@@ -774,7 +767,7 @@ ul {
   max-width: 528px;
   height: 581px;
   border-radius: 4px;
-  background-color: #ffffff;
+  background-color: var(--primary-background-color);
   box-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
     0px 1px 3px 0px #0000001f;
 
@@ -952,7 +945,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--primary-text-color-white);
 }
 
 .button-subscribe-footer {
