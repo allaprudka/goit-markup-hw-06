@@ -286,7 +286,7 @@ img {
 .footer {
   background-color: var(--background-color-footer);
   min-height: 252px;
-  width: 1600px;
+  min-width: 1600px;
 }
 
 .address-footer {
